@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.pop.easylearning.register"
+    android:background="#EEF1F3"
+
+    >
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+    android:background="#EEF1F3"
+    android:layout_centerVertical="true">
+
+
+
+
+
+
+
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:hint="@string/name_hintstring"
+            android:textColor="#21ABCD"
+            android:textColorHint="#21ABCD"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="10dp"
+            android:id="@+id/name"
+            android:background="#EEF1F3"
+            android:layout_marginTop="10dp"
+           />
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:hint="@string/pass_hintstring"
+            android:inputType="textPassword"
+            android:textColor="#21ABCD"
+            android:textColorHint="#21ABCD"
+            android:textSize="10dp"
+             android:id="@+id/pass"
+            android:background="#EEF1F3"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            />
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="@string/email_hintString"
+        android:inputType="textPassword"
+
+        android:textColor="#21ABCD"
+        android:textColorHint="#21ABCD"
+        android:textSize="10dp"
+        android:id="@+id/mail"
+        android:background="#EEF1F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+       />
+
+
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    >
+
+
+
+
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/reg_btn_string"
+                android:background="@drawable/logbtn"
+                android:id="@+id/regbtn"
+                android:layout_marginTop="5dp"
+
+                android:layout_weight="1"
+                android:textColor= "#21ABCD"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginRight="5dp"
+                />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

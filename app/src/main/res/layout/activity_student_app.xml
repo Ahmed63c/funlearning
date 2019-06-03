@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.pop.easylearning.StudentApp"
+    android:orientation="vertical"
+    android:background="#EEF1F3"
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/stuName"
+    android:textColor="#21ABCD"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+
+      <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/studentapp"
+        android:src="@drawable/attendance"
+
+        android:layout_weight="1"
+
+        android:id="@+id/stuAtt"  />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/studentapp"
+            android:src="@drawable/survey"
+android:layout_weight="1"
+            android:layout_marginLeft="150dp"
+android:id="@+id/stuTrafficLight"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp" >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/attendancetext_String"
+      android:textColor="#21ABCD"  />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Traffictext_string"
+        android:layout_marginLeft="106dp"
+        android:textColor="#21ABCD"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/studentapp"
+            android:src="@drawable/white_board"
+
+            android:layout_weight="1"
+            android:id="@+id/stuWhiteSheet"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/studentapp"
+            android:src="@drawable/lecht"
+android:id="@+id/lect"
+android:layout_weight="1"
+            android:layout_marginLeft="150dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/WhiteSheettext_string"
+            android:textColor="#21ABCD"   />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lecture_String"
+            android:layout_marginLeft="106dp"
+            android:textColor="#21ABCD"    />
+
+    </LinearLayout>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/studentapp"
+            android:id="@+id/screenRecord"
+            android:src="@drawable/record"/>
+    </LinearLayout>
+</LinearLayout>

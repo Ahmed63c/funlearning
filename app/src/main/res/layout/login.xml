@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.pop.easylearning.login"
+    android:background="#EEF1F3"
+
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:background="#EEF1F3"
+    >
+
+
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:hint="@string/name_hintstring"
+            android:typeface="serif"
+            android:textColor="#21ABCD"
+            android:textColorHint="#21ABCD"
+            android:id="@+id/nameedit"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#EEF1F3"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:typeface="serif"
+            android:layout_height="30dp"
+            android:hint="@string/pass_hintstring"
+            android:inputType="textPassword"
+            android:textColor="#21ABCD"
+            android:textColorHint="#21ABCD"
+            android:id="@+id/passedit"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#EEF1F3"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+        <Button
+            android:layout_width="0dp"
+            android:textColor="#21ABCD"
+            android:typeface="serif"
+            android:layout_height="fill_parent"
+            android:text="@string/log_btn_string"
+            android:background="@drawable/logbtn"
+            android:id="@+id/donereg"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+
+            />
+
+
+
+
+            <Button
+                android:layout_width="0dp"
+                android:typeface="serif"
+                android:textColor="#21ABCD"
+                android:layout_height="fill_parent"
+                android:text="@string/reg_btn_string"
+                android:background="@drawable/logbtn"
+                android:id="@+id/register"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

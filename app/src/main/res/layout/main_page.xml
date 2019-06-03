@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pop.easylearning.MainPage"
+    android:background=	"#FCFBFB"	 >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#FCF7F9FA"
+        android:orientation="vertical"
+
+        >
+
+
+        <ListView
+            android:id="@+id/list"
+            style="@android:style/Widget.Material.ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:background="#FAFBFBFC"
+            android:cacheColorHint="#3F51B5"
+            android:divider="#F8F8F8"
+            android:dividerHeight="100dp"
+            android:paddingLeft="60dp"
+            android:textFilterEnabled="false">
+
+        </ListView>
+
+
+    </LinearLayout>
+</RelativeLayout>

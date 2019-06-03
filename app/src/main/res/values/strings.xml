@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">EasyLearning</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inst_lgin">OC</string>
+
+<string name="onlineclassroom_string">OnlineClassRoom</string>
+    <string name="name_hintstring">Name</string>
+    <string name="pass_hintstring">pass</string>
+    <string name="log_btn_string">login</string>
+    <string name="reg_btn_string">Register</string>
+    <string name="title_activity_reg_inst">Online Classroom</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inst_app">InstApp</string>
+    <string name="title_activity_white_sheet">WhiteSheet</string>
+
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="paint">Paint</string>
+
+
+
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="title_activity_show_slide">PdfFiles</string>
+    <string name="title_activity_render">Render</string>
+    <string name="title_activity_stulog">OC</string>
+<string name="menu_mailtext">email</string>
+
+<string name="upload_string">Send</string>
+    <string name="title_activity_student_white_sheet">StudentWhiteSheet</string>
+    <string name="title_activity_image">Image</string>
+    <string name="title_activity_traffic_light">TrafficLight</string>
+    <string name="send_String">send</string>
+    <string name="degree_hintString">degree</string>
+    <string name="title_activity_show_traffic_light">ShowTrafficLight</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_view_full_image">ViewFullImage</string>
+    <string name="title_activity_sub">sub</string>
+    <string name="email_hintString">e_mail</string>
+    <string name="title_activity_student_log">OC</string>
+
+    <string name="instmail_hintstring">InstE_mail</string>
+    <string name="streaming_hintString">URl</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_student_app">StudentApp</string>
+<string name="attendancetext_String">Attendance</string>
+    <string name="Traffictext_string">TrafficLight</string>
+    <string name="WhiteSheettext_string">WhiteSheet</string>
+    <string name="lecture_String">Lecture</string>
+    <string name="title_activity_oc">OC</string>
+    <string name="stuQuestios_String">studentQuestions</string>
+    <string name="submission_String">Submission</string>
+    <string name="Slides_String">Slide</string>
+    <string name="title_activity_student_attendance">StudentAttendance</string>
+    <string name="title_activity_show_attandance">show_attandance</string>
+    <string name="title_activity_app">App</string>
+    <string name="allowstudentSubmission_String">AcceptSubmissions</string>
+    <string name="refuse_String">RefuseSubmissions</string>
+    <string name="title_activity_lecture">Lecture</string>
+<string name="clearimg_String">clearQuestions</string>
+    <string name="clearatt_String">ClearAttendance</string>
+    <string name="clearTraffic_String">ClearTraffic</string>
+    <string name="title_activity_student_lec">StudentLec</string>
+    <string name="title_activity_streaming">Streaming</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="camera">Camera</string>
+    <string name="record">record</string>
+
+</resources>

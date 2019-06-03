@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+    tools:context="com.example.pop.easylearning.WhiteSheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/paint_colors"
+
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/new_btn"
+            android:src="@drawable/new_sheet"
+            android:layout_weight="0.25" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/brush"
+            android:id="@+id/draw_btn"
+            android:layout_weight="0.25" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/eraser"
+            android:id="@+id/erase_btn"
+            android:layout_weight="0.25"  />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/paint"
+            android:background="#FFFF0000"
+            android:tag="#FFFF0000"
+            android:layout_weight="0.25"
+            android:onClick="paintClicked" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/paint"
+            android:background="#FF0000FF"
+            android:tag="#FF0000FF"
+            android:layout_weight="0.25"
+            android:onClick="paintClicked"   />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="#FF000000"
+            android:tag="#FF000000"
+            android:src="@drawable/paint"
+            android:layout_weight="0.25"
+            android:onClick="paintClicked" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/upload_string"
+            android:id="@+id/send"
+            android:layout_weight="0.25"
+            android:src="@drawable/send"
+            />
+    </LinearLayout>
+    <com.example.pop.easylearning.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF" />
+
+
+</LinearLayout>

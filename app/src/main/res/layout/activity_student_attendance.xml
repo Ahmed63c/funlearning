@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    tools:context="com.example.pop.easylearning.StudentAttendance"
+
+
+    android:background="#EEF1F3">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atttxt"
+        android:textColor="#21ABCD"
+        android:hint="@string/name_hintstring"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_String"
+        android:background="#21ABCD"
+        android:textColor="#BCD4E6"
+        android:id="@+id/btn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
