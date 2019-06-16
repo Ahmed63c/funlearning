@@ -1,12 +1,13 @@
 # funlearning
 
 
-there is video demo describe how it works.
 
 
 
+##About the app
 
-this a e-learning type android app that has two roles student and teatcher and has these features
+
+this is  a e-learning type android app that has two roles student and teatcher and has these features
 1.for teacher role
    .open an white area to draw or write somthing in it for student 
    .get student attendence with thier names throw their mac address
@@ -20,4 +21,16 @@ this a e-learning type android app that has two roles student and teatcher and h
     
     
 ....still  working in straming the teacher screen(+camera)to share every thing with students 
-.....data base was in local host so you have to browes code then create your own the api was php with volley library.
+.....database was in local host so you have to browes code then create your own the api was php with volley library.
+
+
+### Functionalities app consists:
+   
+   
+   *mysql database
+   *splash screen
+   *picaso api
+   *Volley api
+   *libstreamin api
+   *Material design
+   
