@@ -29,7 +29,9 @@ this is  a e-learning type android app that has two roles student and= teatcher 
 	 
 	 
 ....still  working in straming the teacher screen(what he do on screen)to share every thing with students 
+
 .....database was in local host so you have to browes code then create your own the api was php with volley library.
+..... all the php files to be called with volley you will find in php folder.
 
 
 ### Functionalities app consists:
