@@ -20,7 +20,7 @@ this is  a e-learning type android app that has two roles student and teatcher a
     .record teacher straming and play it in mxplayer
     
     
-....still  working in straming the teacher screen(+camera)to share every thing with students 
+....still  working in straming the teacher screen(what he do on screen)to share every thing with students 
 .....database was in local host so you have to browes code then create your own the api was php with volley library.
 
 
