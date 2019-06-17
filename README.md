@@ -2,7 +2,7 @@
 
 #About the app
 
-    this is  a e-learning type android app that has two roles student and= teatcher and has these features
+this is  a e-learning type android app that has two roles student and= teatcher and has these features
 
 
 
@@ -16,12 +16,16 @@
 	
 	
 #for student role 
-    -  open white area that can drow somthing to ask teacher about it by taking screan shot 
-    -  use traffic lights activity to be in questionary
-    -  record teacher straming and play it in mxplayer
-    -  ask question by draw it and send screenshot to teacher
-	 -  send his name to teacher for attendence
+
+   -  open white area that can drow somthing to ask teacher about it by taking screan shot 
+   -  use traffic lights activity to be in questionary
+   -  record teacher straming and play it in mxplayer
+   -  ask question by draw it and send screenshot to teacher
+   -  send his name to teacher for attendence
     
+	 
+	 
+	 
 	 
 	 
 ....still  working in straming the teacher screen(what he do on screen)to share every thing with students 
@@ -34,7 +38,7 @@
    - mysql database
    - splash screen
    - Restfulai (Volley api)
-	- picasso library
+   - picasso library
    - libstreamin api
    - Material design
    
